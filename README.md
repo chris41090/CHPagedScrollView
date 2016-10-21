@@ -17,7 +17,10 @@ NOTE: 'Supported' means that the library has been tested with this version. 'Com
 * All delegate methods tha you will need
 * You can use whatever views you want
 
-#Examples
-![example](http://g.recordit.co/6tBy0lr7I5.gif)
+## Examples
+![example1](http://g.recordit.co/6tBy0lr7I5.gif)
 
+![expmple2](http://g.recordit.co/D9zcSUkANh.gif)
+
+## Usage
 
