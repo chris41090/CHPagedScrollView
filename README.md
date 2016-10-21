@@ -22,5 +22,32 @@ NOTE: 'Supported' means that the library has been tested with this version. 'Com
 
 ![expmple2](http://g.recordit.co/D9zcSUkANh.gif)
 
-## Usage
+## Intallation
 
+To use the CHPagesScrollView class in an app, just drag the CHPagesScrollView class files (demo files and assets are not needed) into your project.
+
+## Properties
+```swift
+   var pageViews = [UIView]()
+```
+  By seting this array with whatever view you like set up the pages of the scroll view
+ 
+## Methods
+  ```swift
+    func scrollAtIndex(_ index:Int) {
+```
+  With this function you can scroll to any page you want
+  
+  
+## Protocols
+
+CHPagesScrollView provides a protocol interface, CHPagedScrollViewDelegate and you can set it with chPagedScrollViewDelegate property.  The CHPagedScrollViewDelegate protocol has the following methods:
+```swift
+    func pountoScrollView(_ pountoScrollView:CHPagedScrollView, didScrollToIndex index:Int, currentView:UIView)
+```
+  This method is called when the CHPagesScrollView has moved to a another page.
+
+```swift
+    func pountoScrollView(_ pountoScrollView:CHPagedScrollView, didSelectView view:UIView, atIndex index:Int)
+```
+  This method is called when the user has tapped to a view.
