@@ -18,6 +18,6 @@ NOTE: 'Supported' means that the library has been tested with this version. 'Com
 * You can use whatever views you want
 
 #Examples
-![example](http://www.giphy.com/gifs/3o7TKvimOktYtC8vew)
+![example](http://g.recordit.co/6tBy0lr7I5.gif)
 
 
